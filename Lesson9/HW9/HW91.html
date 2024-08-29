@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .wrap{
+            width: 100px;
+            height: 100px;
+           background: crimson;
+
+        }
+        .collapse{
+            width: 150px;
+            height: 150px;
+            background: coral;
+
+
+        }
+        .alpha{
+            width: 200px;
+            height: 200px;
+            background: gold;
+
+
+        }
+        .beta{
+            width: 250px;
+            height: 250px;
+            background: forestgreen;
+
+
+        }
+
+
+    </style>
+</head>
+<body>
+<script>
+    const div=document.createElement('div');
+    div.classList.add('wrap');
+    div.classList.add('collapse');
+    div.classList.add('alpha');
+    div.classList.add('beta');
+
+    const cloneNode=div.cloneNode(true);
+    document.body.append(div,cloneNode);
+    console.log(div,cloneNode);
+
+
+
+</script>
+
+</body>
+</html>
