@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="target"></div>
+<script>
+    let currentNunber = +localStorage.getItem('number');
+    currentNunber += 1;
+    localStorage.setItem('number',currentNunber);
+
+    document.getElementById('target').innerText = currentNunber;
+
+
+
+</script>
+</body>
+</html>

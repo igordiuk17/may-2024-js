@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+
+    const sessionslist = JSON.parse(localStorage.getItem('sessionslist'));
+    for(const sessionslistElement of sessionslist){
+        const div = document.createElement('div');
+        div.innerText=sessionslistElement.toString();
+        document.body.appendChild(div);
+    }
+</script>
+
+</body>
+</html>
