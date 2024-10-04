@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: Calibri,sans-serif;
+
+}
+section p{
+    width: 70%;
+
+}
+.top{
+
+    background-color: #e8858d;
+    color: #1e1a1a;
+
+
+}
+.botton{
+
+    background-color: #251b1b;
+    color: snow;
+}
+h2{
+    margin-bottom: 40px;
+    font-size: 2em;
+}
