@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+
+}
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*text-align: center;*/
+    flex-direction: column;
+}
+h2{
+    margin-bottom: 30px;
+    font-size: 3em;
+}
+section p{
+    margin-bottom: 20px;
+    width: 80vw;
+}
+section a{
+   font-size: 4em;
+
+}
+#section1{
+    background-color: #d7636c;
+}
+#section2{
+    background-color: gold;
+}
+#section3{
+    background-color: #4db4d3;
+}
