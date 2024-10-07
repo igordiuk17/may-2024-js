@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header,footer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        header{
+            height: 20vh;
+            width: 100%;
+            background: #8D8484;
+
+        }
+        footer{
+            height: 20vh;
+            width: 100%;
+            background: #BDBDBD;
+        }
+        main{
+            display: flex;
+        }
+        .main-section{
+            width:73vw ;
+        }
+        .content{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 73vw;
+            height: 20vh;
+        }
+        .spam{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 27vw;
+            height: 30vh;
+        }
+        p{
+            font-size: 3em;
+        }
+        section p{
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <p>Header</p>
+</header>
+<main>
+    <div class="main-section">
+        <section class="content" style="background: #776969;">
+            <p>Content - 1</p>
+        </section>
+        <section class="content" style="background: #643030;" >
+            <p>Content - 2</p>
+        </section>
+        <section class="content" style="background: #441818;">
+            <p>Content - 3</p>
+        </section>
+
+    </div>
+    <div class="main-spam">
+        <section class="spam" style="background: #937575;">
+            <p>spam -1</p>
+        </section>
+        <section class="spam" style="background: #644C4C;">
+            <p>spam -2</p>
+        </section>
+    </div>
+</main>
+<footer>
+    <p>footer</p>
+</footer>
+
+</body>
+</html>
