@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.forma-registracion{
+    width: 60vw;
+    height: 60vh;
+    background-color: #ded2d2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    font-family: Arial,sans-serif;
+}
+.forma-registracion div:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #89bdbd;
+    width: 60vw;
+    height: 60px;
+    border-radius: 10px  10px 0 0;
+}
+.forma-registracion div:nth-child(1){
+    font-size: 30px;
+}
+.forma-registracion form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input[type="text"],
+input[type="password"]{
+    width: 300px;
+    height: 50px;
+    margin: 30px;
+}
+.forma-registracion> form >div{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
+.forma-registracion>form>div>input[type="submit"]{
+    height: 30px;
+    width: 50px;
+    border-radius: 5px;
+    background-color: #cce0e0;
+}
+
